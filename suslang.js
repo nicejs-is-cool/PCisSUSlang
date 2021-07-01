@@ -24,7 +24,7 @@ if (!argv[0]) {
 }
 console.log('reading file...')
 var file = fs.readFileSync(argv[0],{encoding: 'utf-8'});
-var version = "0.0.0-alpha"
+var version = "0.0.1-alpha"
 if (argv.includes('--spoof-version')) {
     var i = argv.indexOf('--spoof-version');
     if (!argv[i+1]) {console.log('invalid spoof version argument missing: version'); process.exit(1)};
@@ -160,7 +160,7 @@ console.log('writing file...')
 // write file
 if (argv.includes('-o')) {
     if (!argv[argv.indexOf('-o')+1]) {
-        console.log('you need to add the file after -o')
+        console.log('you need to add the file after -o like this: "-o hello.js"')
         process.exit(1)
     }
     fs.writeFileSync(argv[argv.indexOf('-o')+1],string);
