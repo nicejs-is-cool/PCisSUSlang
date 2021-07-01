@@ -1,0 +1,20 @@
+{
+  "name": "suslang",
+  "bin": {
+    "suslang": "./suslang.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "suslang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "spinnies": "^0.5.1",
+    "uglify-js": "^3.13.10"
+  },
+  "preferGlobal": true
+}

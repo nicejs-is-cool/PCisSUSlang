@@ -1,0 +1,27 @@
+version '0.0.0-alpha'
+var suslang = require('suslang');
+// not needed you can remove this if you want
+if (suslang.version !== "0.0.0-alpha") {
+    print("hey bro you need 0.0.0-alpha to run this. you have: "+suslang.version+" install 0.0.0-alpha then recompile this file");
+    exit(1)
+}
+var impostor = require('amongus')
+
+var rng = require('rng')
+var choice = require('choice');
+printraw(choice(['sus','hello'])+', world!');
+sleep(1000)
+print(" "+btoa('hm sussy!'))
+sleep(1000)
+printraw('todays number is: ')
+sleep(500);
+for (var i = 0; i < 10; i++) {
+    printraw(rng(9).toString());
+    sleep(50)
+}
+printraw('\nyour luck is:');
+for (var i = 0; i < 10; i++) {
+    printraw(rng(9).toString());
+    sleep(10)
+}
+printraw('% luck');
