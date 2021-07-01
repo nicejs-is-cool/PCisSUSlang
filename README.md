@@ -3,7 +3,7 @@
 `npm i -g suslang`
 ### code example:
 ```js
-version '0.0.0-alpha' // used to make sure the compiler is in the exact version
+version '0.0.1-alpha' // used to make sure the compiler is in the exact version
 var suslang = require('suslang');
 // not needed you can remove this if you want
 if (suslang.version !== "0.0.1-alpha") {
