@@ -6,8 +6,8 @@
 version '0.0.0-alpha' // used to make sure the compiler is in the exact version
 var suslang = require('suslang');
 // not needed you can remove this if you want
-if (suslang.version !== "0.0.0-alpha") {
-    print("hey bro you need 0.0.0-alpha to run this. you have: "+suslang.version+" install 0.0.0-alpha then recompile this file");
+if (suslang.version !== "0.0.1-alpha") {
+    print("hey bro you need 0.0.1-alpha to run this. you have: "+suslang.version+" install 0.0.1-alpha then recompile this file");
     exit(1)
 }
 var impostor = require('amongus')
